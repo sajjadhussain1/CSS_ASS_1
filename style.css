@@ -3,44 +3,86 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{font-family: 'Abril Fatface', cursive;}
-.card{
-    border: 2px solid rgb(230, 222, 222);
-    width: 800px;
+body {
+    background-color: rgba(243, 234, 227, 255);
+    font-family: 'Righteous', cursive;
+font-family: 'Shrikhand', cursive;
 }
-.card p{
-    margin-top: auto;
-    text-align: center;
-    margin-right: -335px;
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.image{
+    width: 300px;
+    height: 400px;
+    border-top-left-radius:10px ;
+    border-bottom-left-radius: 10px;
 }
 
-.card header{
-    background-size: cover;
-    border-radius: 50px;
-
-}
-.card-body{
-
-    padding: 5px;
-}
-.card-body p{
-    margin: auto;
-
-    margin-top: -300px;
-    margin-bottom: 5px;
-    margin-right: 25px;
-    text-align:right;
-    font-size: 18px;
-    
-}
-button{
-    cursor: pointer;
-    background-color: rgb(44, 115, 72);
-    border-style: none;
-    color: antiquewhite;
-    padding: 15px 20px;
+h2 {
+    letter-spacing: 2px;
+    color: grey;
+    font-family: sans-serif;
     font-weight: bold;
-    margin-left: 580px;
-    margin-top: 80px;
-    border-radius: 25px;
+    padding: 5px 0px 5px 0px;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.product-description{
+    background-color: white;
+    padding: 30px 83px 0px 40px;
+    width: 300px;
+    font-size: 12px;
+    height: 400px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: grey;
+    line-height: 15px;
+    margin-bottom: 20px;
+}
+
+.span1{
+    font-family: 'Fraunces', sans-serif;
+    font-size: 20px;
+    color: rgba(61, 129, 104, 255);
+}
+.span2{
+    font-size: 12px;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 15px;
+}
+.price{
+    margin: 10px 5px 10px 0px;
+    font-family: 'Righteous', cursive;
+font-family: 'Shrikhand', cursive;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    font-size: 12px;
+    border: none;
+    background-color: rgba(61, 120, 184, 255);
+    color: white;
+    border-radius: 5px;
+    margin: 15px 0px 5px 0px;
+}
+.fa-solid{
+    font-size: 12px;
+    margin-right: 10px;
+    
 }
